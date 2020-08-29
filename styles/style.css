@@ -4,6 +4,7 @@
 h1{
     text-align: center;
     font-size: 3.5vw;
+    margin-top:0;
     /*border-bottom: solid black;*/
 }
 #disclosureNotice>p {
