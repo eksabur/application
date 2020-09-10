@@ -27,6 +27,16 @@ form {
     text-align: center;
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rbg(100,100,100);
+  color: white;
+  text-align: center;
+}
+
 .required::before {
     content:"*";
     color: red;
