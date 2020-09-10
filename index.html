@@ -39,7 +39,10 @@
                        maxlength="20" size="20" pattern="[A-Za-z]" tabindex="3"><br>
                 <div id="leftAlign">
                     <label for="dob" class="required">Date of Birth: </label>
-                    <input type="date" id="dob" name="dob" required tabindex="4"><br>
+                    <input type="date" id="dob" name="dob" required tabindex="4"
+                     min="1950-01-01" max="2020-12-31"><br>
+                    <input type="number" id="age" name="age" disabled>
+                    <input type="text" id="sign" name="sign" disabled>
 
                     <label for="height">Height: </label>
                     <input type="number" id="height" name="height" min="3" max="8" title="Feet" tabindex="5">'
